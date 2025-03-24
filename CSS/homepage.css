@@ -1,0 +1,336 @@
+body{
+    background-color: black;
+    position: absolute;
+}
+.icons{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+.logo{
+    margin-bottom: 10px;
+}
+/* .man1{
+    color: red;
+    margin-top: -30px;
+    margin-left:-30px;
+
+} */
+.sony{
+    color: white;
+    display: flex;
+    padding: 50px;
+}
+.img1{
+    height: 600px;
+    width: auto;
+}
+.buds{
+    color: rgb(219, 203, 203);
+    text-align: center;
+    justify-content: center;
+    font-weight: 100px;
+   
+}
+.product1{
+    color: whitesmoke;
+    margin-left: 20px;
+    padding: 20px; 
+}
+.brand{
+    font-size: small;
+    font-weight: bold;
+    padding-right: 2px;
+    margin-left: 2px;
+}
+.price{
+    margin-left: 50px;
+}
+.product2{
+    color: white;
+    /* margin-left: 40px; */
+    padding: 20px;
+    padding-right: 30px;
+    
+}
+.brand{
+    margin-left: 30px;
+    font-weight: 20px;
+    font-size:larger;
+}
+.img2{
+    margin-right: 10px;
+    padding-right: 50px;
+}
+.price{
+    margin-left: 50px;
+}
+.product3{
+    color: white;
+    margin:20px;
+}
+.brand3{
+    margin-left: 20px;
+    padding: 1px;
+    font-size: larger;
+}
+.img3{
+    align-items: center;
+    padding-left: 2px;
+}
+.price{
+    margin-left: 50px;
+}
+.product4{
+    color: white;
+    margin-left: 50px;
+    padding-right: 20px;
+}
+.brand4{
+    font-size: large;
+    font-weight:bold;
+    margin-left: 30px;
+    padding-top: 25px;
+}
+.price4{
+    margin-left: 40px;
+    
+}
+.product5{
+    color: white;
+    margin-left: 40px;
+}
+.brand5{
+    font-size: large;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-top: 25px;
+}
+.price5{
+    margin-left: 60px;
+}
+.products-container .a{
+    animation-name: product-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes  product-animation{
+    0%{
+        transform:translateX(10px);
+    }
+    20%{
+        transform:translateX(20px);
+    }
+    30%{
+        transform:translateX(30px);
+    }
+    40%{
+        transform:translateX(40px);
+    }
+    50%{
+        transform:translateX(50px);
+    }
+    60%{
+        transform:translateX(50px);
+    }
+    70%{
+        transform:translateX(40px);
+    }
+    80%{
+        transform:translateX(30px);
+    }
+    90%{
+        transform:translateX(20px);
+    }
+    100%{
+        transform:translateX(10px);
+    }
+}
+.a img:hover{
+    transform:scale(0.5);
+}
+.items {
+    color: white;
+    background-color: black;
+    border: none;
+    margin-left: 100px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 40PX;
+}
+
+.items:hover {
+    background-color:red;
+}
+.container-fluid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.card-title{
+    font-size: larger;
+    font-weight: bold;
+}
+.card-img1{
+    background-color: black;
+}
+.card-body{
+    background-color: black;
+}
+.stars{
+    color: red;
+}
+.Total{
+    color: grey;
+    text-decoration: line-through;
+}
+.btn:hover{
+    background-color: red;
+}
+.row{
+ gap: px;
+
+}
+.text-cont{
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 230px;
+}
+.text{
+    color: white;
+    margin-left: 200px;
+    margin-top: 80px;
+    margin-bottom: -70px;
+
+}
+.name{
+    color: white;
+    font-size: 30px;
+    font-weight: 40px;
+}
+.descri{
+    color: white;
+    font-size: 50px;
+}
+.box{
+    color: white;
+    background-color: rgb(240, 13, 13);
+    border-radius: 10%;
+    margin-left: 60px;
+}
+.mainimg{
+    margin-top: -350px;
+    margin-left:700px;
+    height: 500px;
+    width: 500px;
+}
+.price{
+    color: white;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.box{
+    margin-left: 10px;
+}
+.our{
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.container{
+    color: white;
+}
+.img{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.font{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.min{
+    color: grey;
+    margin-top: 20px;
+    margin-left:-145px;
+    font-size: 15px;
+}
+.min1{
+    color: grey;
+    margin-top: 20px;
+    margin-left: -125px;
+}
+.footer{
+    color: whitesmoke;
+    margin-top: 80px;
+}
+.head{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.count{
+    color: grey;
+}
+.Email{
+    height: 30px;
+    width: 250px;
+    color: white;
+    background-color: rgb(31, 21, 21);
+    border: 2px solid grey;
+    border-color:lightsteelblue;
+}
+.but{
+    width: 150px;
+    color: white;
+    background-color: rgb(230, 7, 7);
+    border-color: red;
+}
+.footer{
+    margin-left: 100px;
+}
+.help{
+    margin-left: 25px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.polices{
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.mainicon{
+    margin-left: 1000px;
+    margin-top: -60px;
+}
+.man1{
+    color: red;
+    margin-left: -10px;
+    top: -40px;
+}
+.dialouge{
+    color: white;
+    position: absolute;
+    border: 2px solid grey;
+    width: 300px;
+    z-index: 5;
+    top: 30px;
+    padding-top: 20px;
+    right: 20px;
+    padding: 20px;
+    background-color: black;
+    display: none;
+}
+.maindialouge:hover .dialouge{
+    display: block;
+}
+
+.bob{
+    color: white;
+    margin-left: 170px;
+    margin-top: -45px;
+}
+.Login{
+    color: whitesmoke;
+    background-color: red;
+    border: 2px solid black;
+}
